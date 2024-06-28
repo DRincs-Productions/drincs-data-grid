@@ -1,0 +1,45 @@
+{
+  "name": "@drincs/data-grid",
+  "version": "0.1.0",
+  "description": "Data Grid for react",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DRincs-Productions/drincs-react-components.git"
+  },
+  "author": "DRincs-Productions",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DRincs-Productions/drincs-react-components/issues"
+  },
+  "homepage": "https://github.com/DRincs-Productions/drincs-react-components#readme",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "jsdom": "^24.1.0",
+    "react-dom": "^18.3.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.3.1",
+    "react-hook-form": ">=7.52.0",
+    "react-router-dom": ">=6.24.0"
+  },
+  "dependencies": {
+    "@drincs/react-components": "^0.2.19",
+    "@mui/x-data-grid": "^7.7.1",
+    "framer-motion": "^11.2.12"
+  }
+}
