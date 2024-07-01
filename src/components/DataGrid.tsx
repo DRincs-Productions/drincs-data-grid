@@ -1,4 +1,4 @@
-import { Sheet } from '@drincs/react-components';
+import { ErrorComponent, Sheet } from '@drincs/react-components';
 import { DataGrid as DataGridX } from '@mui/x-data-grid';
 import * as locales from '@mui/x-data-grid/locales';
 import { createColumnVisibilityModel } from '../functions/DataGridFunctions';
